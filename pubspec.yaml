@@ -1,7 +1,8 @@
 name: flutter_gpu_filters_interface
 description: Multi platform interfaces for GPU filters.
 version: 0.0.1
-homepage:
+homepage: https://github.com/nikolaydymura/flutter_gpu_filters_interface
+repository: https://github.com/nikolaydymura/flutter_gpu_filters_interface
 
 environment:
   sdk: ">=2.18.2 <3.0.0"
