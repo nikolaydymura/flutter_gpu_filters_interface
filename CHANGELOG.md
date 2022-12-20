@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Added Rect parameter
+
 ## 0.0.2
 
 * Added String and Bool parameters
