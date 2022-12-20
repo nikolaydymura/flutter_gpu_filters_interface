@@ -10,5 +10,6 @@ export 'src/parameters/matrix4_parameter.dart';
 export 'src/parameters/number_parameter.dart';
 export 'src/parameters/point_parameter.dart';
 export 'src/parameters/range_number_parameter.dart';
+export 'src/parameters/rect_parameter.dart';
 export 'src/parameters/size_parameter.dart';
 export 'src/parameters/string_parameter.dart';

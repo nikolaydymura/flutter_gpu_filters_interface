@@ -1,3 +1,7 @@
+## 0.0.4
+
+* Fixed parameters
+
 ## 0.0.3
 
 * Added Rect parameter
