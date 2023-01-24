@@ -13,3 +13,4 @@ export 'src/parameters/range_number_parameter.dart';
 export 'src/parameters/rect_parameter.dart';
 export 'src/parameters/size_parameter.dart';
 export 'src/parameters/string_parameter.dart';
+export 'src/parameters/vector_parameter.dart';
