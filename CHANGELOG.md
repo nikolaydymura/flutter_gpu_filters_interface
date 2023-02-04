@@ -1,5 +1,9 @@
 ## 0.0.6
 
+* Updated sources
+
+## 0.0.6
+
 * Added image/video export options
 
 ## 0.0.5

@@ -3,7 +3,7 @@ import 'dart:typed_data';
 
 abstract class InputSource {}
 
-abstract class PathInputSource {
+abstract class PathInputSource extends InputSource {
   final String path;
 
   PathInputSource(this.path);
