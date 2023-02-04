@@ -1,6 +1,9 @@
 library flutter_gpu_filters_interface;
 
 export 'src/configuration/filter_configuration.dart';
+export 'src/context/image_export_config.dart';
+export 'src/context/input_source.dart';
+export 'src/context/video_export_config.dart';
 export 'src/parameters/aspect_ratio_parameter.dart';
 export 'src/parameters/bool_parameter.dart';
 export 'src/parameters/color_parameter.dart';

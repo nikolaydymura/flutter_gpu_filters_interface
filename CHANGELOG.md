@@ -1,3 +1,7 @@
+## 0.0.6
+
+* Added image/video export options
+
 ## 0.0.5
 
 * Added Vector parameter
