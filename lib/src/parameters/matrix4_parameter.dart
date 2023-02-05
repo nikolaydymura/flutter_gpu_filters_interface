@@ -5,7 +5,7 @@ import 'configuration_parameter.dart';
 abstract class Matrix4Parameter extends ConfigurationParameter {
   Matrix4 value;
 
-  Matrix4Parameter(super.name, super.displayName, this.value);
+  Matrix4Parameter(super.name, super.displayName, this.value, {super.hidden});
 
   @override
   bool operator ==(Object other) =>

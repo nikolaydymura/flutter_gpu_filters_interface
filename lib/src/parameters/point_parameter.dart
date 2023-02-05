@@ -5,7 +5,7 @@ import 'configuration_parameter.dart';
 abstract class PointParameter extends ConfigurationParameter {
   Point<double> value;
 
-  PointParameter(super.name, super.displayName, this.value);
+  PointParameter(super.name, super.displayName, this.value, {super.hidden});
 
   @override
   bool operator ==(Object other) =>

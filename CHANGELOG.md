@@ -1,3 +1,7 @@
+## 0.0.8
+
+* Added hidden to parameters
+
 ## 0.0.7
 
 * Updated sources

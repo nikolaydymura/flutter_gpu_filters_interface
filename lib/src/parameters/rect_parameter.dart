@@ -5,7 +5,7 @@ import 'configuration_parameter.dart';
 abstract class RectParameter extends ConfigurationParameter {
   Rect value;
 
-  RectParameter(super.name, super.displayName, this.value);
+  RectParameter(super.name, super.displayName, this.value, {super.hidden});
 
   @override
   bool operator ==(Object other) =>

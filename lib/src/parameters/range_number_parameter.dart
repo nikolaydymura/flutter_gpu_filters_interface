@@ -10,6 +10,7 @@ abstract class RangeNumberParameter extends NumberParameter {
     super.value, {
     this.min,
     this.max,
+    super.hidden,
   });
 
   @override

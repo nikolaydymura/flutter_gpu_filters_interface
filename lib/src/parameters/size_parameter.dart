@@ -5,7 +5,7 @@ import 'configuration_parameter.dart';
 abstract class SizeParameter extends ConfigurationParameter {
   Size value;
 
-  SizeParameter(super.name, super.displayName, this.value);
+  SizeParameter(super.name, super.displayName, this.value, {super.hidden});
 
   @override
   bool operator ==(Object other) =>

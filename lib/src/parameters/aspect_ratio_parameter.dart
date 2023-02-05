@@ -5,7 +5,12 @@ import 'configuration_parameter.dart';
 abstract class AspectRatioParameter extends ConfigurationParameter {
   Size value;
 
-  AspectRatioParameter(super.name, super.displayName, this.value);
+  AspectRatioParameter(
+    super.name,
+    super.displayName,
+    this.value, {
+    super.hidden,
+  });
 
   @override
   bool operator ==(Object other) =>

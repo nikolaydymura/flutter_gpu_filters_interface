@@ -6,8 +6,9 @@ abstract class BoolParameter extends ConfigurationParameter {
   BoolParameter(
     super.name,
     super.displayName,
-    this.value,
-  );
+    this.value, {
+    super.hidden,
+  });
 
   @override
   bool operator ==(Object other) =>

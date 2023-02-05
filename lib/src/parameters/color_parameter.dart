@@ -4,7 +4,7 @@ import 'configuration_parameter.dart';
 abstract class ColorParameter extends ConfigurationParameter {
   Color value;
 
-  ColorParameter(super.name, super.displayName, this.value);
+  ColorParameter(super.name, super.displayName, this.value, {super.hidden});
 
   @override
   bool operator ==(Object other) =>

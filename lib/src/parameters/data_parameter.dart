@@ -8,5 +8,5 @@ abstract class DataParameter extends ConfigurationParameter {
   String? asset;
   File? file;
 
-  DataParameter(super.name, super.displayName);
+  DataParameter(super.name, super.displayName, {super.hidden});
 }
