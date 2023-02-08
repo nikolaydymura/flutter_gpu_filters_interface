@@ -1,3 +1,7 @@
+## 0.0.10
+
+* Added `List<double>` conversion helpers
+
 ## 0.0.9
 
 * Added `compute` to parameters

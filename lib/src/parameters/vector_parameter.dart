@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'configuration_parameter.dart';
 
 abstract class VectorParameter<T> extends ConfigurationParameter {
@@ -12,6 +14,10 @@ abstract class VectorParameter<T> extends ConfigurationParameter {
   });
 
   List<double> get values;
+
+  Float32List get float32 => Float32List.fromList(values);
+
+  Float64List get floats64 => Float64List.fromList(values);
 
   @override
   bool operator ==(Object other) =>
