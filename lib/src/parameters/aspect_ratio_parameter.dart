@@ -13,6 +13,8 @@ abstract class AspectRatioParameter extends ConfigurationParameter {
     super.compute,
   });
 
+  double get floatValue => value.width / value.height;
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||

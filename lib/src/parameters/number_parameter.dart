@@ -11,6 +11,10 @@ abstract class NumberParameter extends ConfigurationParameter {
     super.compute,
   });
 
+  double get floatValue => value.toDouble();
+
+  int get intValue => value.toInt();
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||

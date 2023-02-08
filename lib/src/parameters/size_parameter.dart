@@ -24,3 +24,9 @@ abstract class SizeParameter extends VectorParameter<Size> {
   @override
   int get hashCode => value.hashCode;
 }
+
+extension SizeX on Size {
+  Size copyWith({double? width, double? height}) {
+    return Size(width ?? this.width, height ?? this.height);
+  }
+}

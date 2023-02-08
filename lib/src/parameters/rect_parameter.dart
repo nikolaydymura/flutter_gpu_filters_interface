@@ -24,3 +24,14 @@ abstract class RectParameter extends VectorParameter<Rect> {
   @override
   int get hashCode => value.hashCode;
 }
+
+extension RectX on Rect {
+  Rect copyWith({double? left, double? top, double? width, double? height}) {
+    return Rect.fromLTWH(
+      left ?? this.left,
+      top ?? this.top,
+      width ?? this.width,
+      height ?? this.height,
+    );
+  }
+}

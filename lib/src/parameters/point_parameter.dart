@@ -24,3 +24,9 @@ abstract class PointParameter extends VectorParameter<Point<double>> {
   @override
   int get hashCode => value.hashCode;
 }
+
+extension PointX on Point<double> {
+  Point<double> copyWith({double? x, double? y}) {
+    return Point(x ?? this.x, y ?? this.y);
+  }
+}

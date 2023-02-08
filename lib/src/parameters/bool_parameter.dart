@@ -11,6 +11,8 @@ abstract class BoolParameter extends ConfigurationParameter {
     super.compute,
   });
 
+  double get floatValue => value ? 1.0 : 0.0;
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
