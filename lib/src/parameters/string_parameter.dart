@@ -8,6 +8,7 @@ abstract class StringParameter extends ConfigurationParameter {
     super.displayName,
     this.value, {
     super.hidden,
+    super.compute,
   });
 
   @override

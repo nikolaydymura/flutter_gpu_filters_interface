@@ -1,11 +1,18 @@
 import 'dart:math';
 
-import 'configuration_parameter.dart';
+import 'vector_parameter.dart';
 
-abstract class PointParameter extends ConfigurationParameter {
-  Point<double> value;
+abstract class PointParameter extends VectorParameter<Point<double>> {
+  PointParameter(
+    super.name,
+    super.displayName,
+    super.value, {
+    super.hidden,
+    super.compute,
+  });
 
-  PointParameter(super.name, super.displayName, this.value, {super.hidden});
+  @override
+  List<double> get values => [value.x, value.y];
 
   @override
   bool operator ==(Object other) =>

@@ -8,6 +8,7 @@ abstract class NumberParameter extends ConfigurationParameter {
     super.displayName,
     this.value, {
     super.hidden,
+    super.compute,
   });
 
   @override

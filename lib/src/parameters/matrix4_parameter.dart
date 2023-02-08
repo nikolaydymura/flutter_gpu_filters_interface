@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 
-import 'configuration_parameter.dart';
+import 'vector_parameter.dart';
 
-abstract class Matrix4Parameter extends ConfigurationParameter {
-  Matrix4 value;
+abstract class Matrix4Parameter extends VectorParameter<Matrix4> {
+  Matrix4Parameter(
+    super.name,
+    super.displayName,
+    super.value, {
+    super.hidden,
+    super.compute,
+  });
 
-  Matrix4Parameter(super.name, super.displayName, this.value, {super.hidden});
+  @override
+  List<double> get values => [...value.storage];
 
   @override
   bool operator ==(Object other) =>

@@ -1,9 +1,17 @@
 import 'configuration_parameter.dart';
 
-abstract class VectorParameter extends ConfigurationParameter {
-  List<double> value;
+abstract class VectorParameter<T> extends ConfigurationParameter {
+  T value;
 
-  VectorParameter(super.name, super.displayName, this.value, {super.hidden});
+  VectorParameter(
+    super.name,
+    super.displayName,
+    this.value, {
+    super.hidden,
+    super.compute,
+  });
+
+  List<double> get values;
 
   @override
   bool operator ==(Object other) =>

@@ -1,10 +1,19 @@
 import 'package:flutter/material.dart';
-import 'configuration_parameter.dart';
 
-abstract class ColorParameter extends ConfigurationParameter {
-  Color value;
+import 'vector_parameter.dart';
 
-  ColorParameter(super.name, super.displayName, this.value, {super.hidden});
+abstract class ColorParameter extends VectorParameter<Color> {
+  ColorParameter(
+    super.name,
+    super.displayName,
+    super.value, {
+    super.hidden,
+    super.compute,
+  });
+
+  @override
+  List<double> get values =>
+      [value.red / 255.0, value.green / 255.0, value.blue / 255.0];
 
   @override
   bool operator ==(Object other) =>

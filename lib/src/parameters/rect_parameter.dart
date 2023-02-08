@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 
-import 'configuration_parameter.dart';
+import 'vector_parameter.dart';
 
-abstract class RectParameter extends ConfigurationParameter {
-  Rect value;
+abstract class RectParameter extends VectorParameter<Rect> {
+  RectParameter(
+    super.name,
+    super.displayName,
+    super.value, {
+    super.hidden,
+    super.compute,
+  });
 
-  RectParameter(super.name, super.displayName, this.value, {super.hidden});
+  @override
+  List<double> get values => [value.left, value.top, value.width, value.height];
 
   @override
   bool operator ==(Object other) =>

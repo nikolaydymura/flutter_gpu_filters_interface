@@ -11,6 +11,7 @@ abstract class RangeNumberParameter extends NumberParameter {
     this.min,
     this.max,
     super.hidden,
+    super.compute,
   });
 
   @override

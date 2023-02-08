@@ -9,6 +9,7 @@ export 'src/parameters/bool_parameter.dart';
 export 'src/parameters/color_parameter.dart';
 export 'src/parameters/configuration_parameter.dart';
 export 'src/parameters/data_parameter.dart';
+export 'src/parameters/list_parameter.dart';
 export 'src/parameters/matrix4_parameter.dart';
 export 'src/parameters/number_parameter.dart';
 export 'src/parameters/point_parameter.dart';

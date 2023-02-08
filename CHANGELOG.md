@@ -1,6 +1,10 @@
+## 0.0.9
+
+* Added `compute` to parameters
+
 ## 0.0.8
 
-* Added hidden to parameters
+* Added `hidden` to parameters
 
 ## 0.0.7
 
