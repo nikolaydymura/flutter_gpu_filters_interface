@@ -1,3 +1,7 @@
+## 0.0.13
+
+* Fixed `OptionString` parameter
+
 ## 0.0.12
 
 * Added `OptionString` parameter

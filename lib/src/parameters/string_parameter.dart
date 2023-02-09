@@ -34,6 +34,8 @@ abstract class OptionStringParameter<T extends OptionString>
     super.compute,
   });
 
+  List<T> get values;
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
