@@ -1,6 +1,6 @@
 library flutter_gpu_filters_interface;
 
-export 'package:vector_math/vector_math.dart' show Matrix3, Matrix4, Vector3;
+export 'package:vector_math/vector_math_64.dart' show Matrix3, Matrix4, Vector3;
 
 export 'src/configuration/filter_configuration.dart';
 export 'src/context/image_export_config.dart';

@@ -8,7 +8,7 @@ abstract class FilterConfiguration {
 
   bool get ready;
 
-  FutureOr<void> prepare(FilterConfiguration configuration);
+  FutureOr<void> prepare();
 }
 
 mixin VideoFilterConfiguration on FilterConfiguration {

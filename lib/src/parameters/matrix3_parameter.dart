@@ -1,5 +1,7 @@
+import 'dart:typed_data';
+
 import 'package:collection/collection.dart';
-import 'package:vector_math/vector_math.dart' show Matrix3;
+import 'package:vector_math/vector_math_64.dart' show Matrix3;
 
 import 'vector_parameter.dart';
 
@@ -14,6 +16,9 @@ abstract class Mat3Parameter extends VectorParameter<Matrix3> {
 
   @override
   List<double> get values => value.storage;
+
+  @override
+  Float64List get floats64 => value.storage;
 }
 
 extension Mat3 on Matrix3 {

@@ -1,3 +1,11 @@
+## 0.0.16
+
+* Moved to `vector_math_64`
+
+## 0.0.15
+
+* Fixed configuration interface
+
 ## 0.0.14
 
 * Used `vector_math`
