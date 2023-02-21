@@ -1,3 +1,7 @@
+## 0.0.14
+
+* Used `vector_math`
+
 ## 0.0.13
 
 * Fixed `OptionString` parameter

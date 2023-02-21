@@ -1,5 +1,7 @@
 library flutter_gpu_filters_interface;
 
+export 'package:vector_math/vector_math.dart' show Matrix3, Matrix4, Vector3;
+
 export 'src/configuration/filter_configuration.dart';
 export 'src/context/image_export_config.dart';
 export 'src/context/input_source.dart';
@@ -20,4 +22,5 @@ export 'src/parameters/range_number_parameter.dart';
 export 'src/parameters/rect_parameter.dart';
 export 'src/parameters/size_parameter.dart';
 export 'src/parameters/string_parameter.dart';
+export 'src/parameters/vector3_parameter.dart';
 export 'src/parameters/vector_parameter.dart';

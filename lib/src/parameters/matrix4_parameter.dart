@@ -1,7 +1,6 @@
-import 'dart:typed_data';
 import 'package:collection/collection.dart';
 
-import 'package:flutter/material.dart';
+import 'package:vector_math/vector_math.dart';
 
 import 'vector_parameter.dart';
 
@@ -15,10 +14,7 @@ abstract class Mat4Parameter extends VectorParameter<Matrix4> {
   });
 
   @override
-  List<double> get values => [...value.storage];
-
-  @override
-  Float64List get floats64 => value.storage;
+  List<double> get values => value.storage;
 
   @override
   bool operator ==(Object other) =>

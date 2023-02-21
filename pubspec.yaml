@@ -1,6 +1,6 @@
 name: flutter_gpu_filters_interface
 description: Multi platform interfaces for filters based on OpenGL shaders and Apple CoreImage filters
-version: 0.0.13
+version: 0.0.14
 homepage: https://github.com/nikolaydymura/flutter_gpu_filters_interface
 repository: https://github.com/nikolaydymura/flutter_gpu_filters_interface
 
@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   collection: ^1.17.0
+  vector_math: ^2.1.4
 
 dev_dependencies:
   flutter_test:
