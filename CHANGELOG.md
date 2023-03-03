@@ -1,3 +1,7 @@
+## 0.0.17
+
+* Added `VideoPreviewController`
+
 ## 0.0.16
 
 * Moved to `vector_math_64`
