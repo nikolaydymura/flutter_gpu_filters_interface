@@ -24,3 +24,4 @@ export 'src/parameters/size_parameter.dart';
 export 'src/parameters/string_parameter.dart';
 export 'src/parameters/vector3_parameter.dart';
 export 'src/parameters/vector_parameter.dart';
+export 'src/preview/video_preview.dart';

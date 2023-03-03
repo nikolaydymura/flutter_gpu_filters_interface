@@ -1,3 +1,7 @@
+## 0.0.18
+
+* Moved `textureId` to `VideoPreviewController` from subclasses
+
 ## 0.0.17
 
 * Added `VideoPreviewController`
